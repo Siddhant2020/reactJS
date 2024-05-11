@@ -42,7 +42,7 @@ const anotherElement = (
   anotherUser);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
+
   ReactElement
   
 )
