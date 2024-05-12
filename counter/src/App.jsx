@@ -12,7 +12,9 @@ function App() {
   const addValue = () => {
     // counter++;
     if (counter < 20) { 
-      setCounter(++counter);
+      // setCounter(counter + 1);
+      // setCounter(++counter);
+      setCounter((prevCounter) => prevCounter + 1);
     }
     // console.log(`Value added ${counter}`)
   };
