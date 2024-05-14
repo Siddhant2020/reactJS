@@ -1,0 +1,7 @@
+#btnCopy:hover{
+    opacity: 0.8;
+}
+
+#btnCopy:active{
+    opacity: 0.5;
+}
